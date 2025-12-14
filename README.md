@@ -13,17 +13,17 @@ O contrato permite:
 
 ## 🧱 Estrutura do Contrato
 
-### Módulo
-```move
+
 module 0x0::donation_system;
 
-Struct DonationBox
+## Struct DonationBox
 
 public struct DonationBox has key, store {
     id: UID,
     funds: Balance<SUI>,
     admin: address,
 }
+
 
 ## Funções Públicas
 
