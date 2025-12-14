@@ -1,4 +1,4 @@
-module 0xadbefe0115a884dd46c1d16b07921b66d315d25ef3143e8dc39090256064315f::donation_system;
+module 0x0::donation_system;
 
 use sui::balance::{Self, Balance};
 use sui::coin::{Self, Coin};
